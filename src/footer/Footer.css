@@ -4,7 +4,7 @@
     grid-template-rows: repeat(3, 18px);
     grid-gap: 10px;
     position: relative;
-    top: 80%;
+    top: 83%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 40%;
@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 3px;
-    font-size: 12px;
+    font-size: 10px;
     transition-duration: .8s;
   }
   

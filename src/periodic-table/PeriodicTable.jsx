@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import data from "./PeriodicTableJSON.json";
 import "./PeriodicTable.css";
 import { colorMap, colorMapFontColor, colorMapBackground } from "./ColorScheme";
@@ -8,6 +8,7 @@ const PeriodicTable = () => {
     <div className="periodic-table">
       {data.elements.map((element) => (
         <div
+          onClick={() => alert(element.summary)}
           className="element"
           key={element.name}
           style={{
