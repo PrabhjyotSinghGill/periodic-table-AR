@@ -1,0 +1,54 @@
+{"elementTypes": [
+    {
+        "name": "Alkali Metals",
+        "bkgcolor":"#d8f8ff",
+        "bordercolor": "#00758c"
+       
+    },
+    {
+        "name": "Alkaline Earth Metals",
+        "bkgcolor":"#ffe7e7",
+        "bordercolor":"#d60024"
+    },
+    {
+        "name": "Transition Metals",
+        "bkgcolor":"#f3e8fd",
+        "bordercolor":"#6232ec"
+    },
+    {
+        "name":"Post-Transition Metals",
+        "bkgcolor":"#d6f9e8",
+        "bordercolor":"#227754"
+    },
+    {
+        "name":"Metalloids",
+        "bkgcolor":"#fef7e0",
+        "bordercolor":"#945700"
+    },
+    {
+        "name":"Reactive Nonmetals",
+        "bkgcolor":"#e2eeff",
+        "bordercolor":"#0060f0"
+    },
+    {
+        "name":"Noble Gases",
+        "bkgcolor":"#ffe7eb",
+        "bordercolor":"#cd1d5e"
+    },
+    {
+        "name":"Lanthanides",
+        "bkgcolor":"#dff3ff",
+        "bordercolor":"#003355"
+    },
+    {
+        "name":"Actinides",
+        "bkgcolor":"#ffe6d4",
+        "bordercolor":"#c73200"
+    },
+    {
+        "name":"Unknown Properties",
+        "bkgcolor":"#e7e7ea",
+        "bordercolor":"#3f374f"
+    }
+    ]
+}

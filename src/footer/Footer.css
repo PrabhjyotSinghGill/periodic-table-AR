@@ -1,0 +1,22 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(3, 18px);
+    grid-gap: 10px;
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+  }
+
+  .element{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    font-size: 12px;
+    transition-duration: .8s;
+  }
+  
