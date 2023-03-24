@@ -81,11 +81,22 @@ const PeriodicTable = () => {
         </div>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            <div>Summary : {elementObject.summary}</div>
-            <div>Period : {elementObject.period}</div>
-            <div>Atomic Mass : {elementObject.atomic_mass}</div>
-            <div>Category : {elementObject.category}</div>
-            <div>Shells : {elementObject.shells}</div>
+            <div>
+              <b>Summary :</b>
+              {elementObject.summary}
+            </div>
+            <div>
+              <b>Period :</b> {elementObject.period}
+            </div>
+            <div>
+              <b>Atomic Mass :</b> {elementObject.atomic_mass}
+            </div>
+            <div>
+              <b>Category :</b> {elementObject.category}
+            </div>
+            <div>
+              <b>Shells :</b> {elementObject.shells}
+            </div>
           </DialogContentText>
         </DialogContent>
       </Dialog>
