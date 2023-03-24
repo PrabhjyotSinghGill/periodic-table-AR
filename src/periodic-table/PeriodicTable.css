@@ -80,3 +80,16 @@
   .symbol{
     font-size: larger !important;
   }
+
+  #alert-dialog-description{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .model-viewer-container{
+    margin: 8px auto;
+    height: 160px;
+    position: relative;
+    width: 300px;
+
+  } 

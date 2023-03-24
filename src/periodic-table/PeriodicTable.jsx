@@ -64,22 +64,28 @@ const PeriodicTable = () => {
             <div>{elementObject.name}</div>
           </div>
         </DialogTitle>
-        <model-viewer
-          src={process.env.PUBLIC_URL + `/${elementObject.number}.glb`}
-          className="model"
-          autoplay=""
-          bounds="tight"
-          camera-controls=""
-          camera-orbit="-0.6751deg 70.99deg 1.4m"
-          exposure="0.3"
-          field-of-view="20deg"
-          max-camera-orbit="auto 180deg auto"
-          min-camera-orbit="auto 0deg auto"
-          auto-rotate
-        ></model-viewer>
+        <div className="model-viewer-container">
+          <model-viewer
+            src={process.env.PUBLIC_URL + `/${elementObject.number}.glb`}
+            className="model"
+            autoplay=""
+            bounds="tight"
+            camera-controls=""
+            camera-orbit="-0.6751deg 70.99deg 1.4m"
+            exposure="0.3"
+            field-of-view="20deg"
+            max-camera-orbit="auto 180deg auto"
+            min-camera-orbit="auto 0deg auto"
+            auto-rotate
+          ></model-viewer>
+        </div>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            {elementObject.summary}
+            <div>Summary : {elementObject.summary}</div>
+            <div>Period : {elementObject.period}</div>
+            <div>Atomic Mass : {elementObject.atomic_mass}</div>
+            <div>Category : {elementObject.category}</div>
+            <div>Shells : {elementObject.shells}</div>
           </DialogContentText>
         </DialogContent>
       </Dialog>
