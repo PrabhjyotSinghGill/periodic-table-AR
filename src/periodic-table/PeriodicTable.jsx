@@ -83,8 +83,7 @@ const PeriodicTable = () => {
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
             <div>
-              <b>Summary :</b>
-              {elementObject.summary}
+              <b>Summary :</b> {elementObject.summary}
             </div>
             <div>
               <b>Period :</b> {elementObject.period}
