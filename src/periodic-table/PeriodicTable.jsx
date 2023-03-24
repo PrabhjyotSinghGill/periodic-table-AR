@@ -48,15 +48,40 @@ const PeriodicTable = () => {
         aria-describedby="alert-dialog-description"
         element={elementObject}
       >
-        <DialogTitle id="alert-dialog-title">{elementObject.name}</DialogTitle>
+        <DialogTitle id="alert-dialog-title">
+          <div className="dialog-title" onClick={handleClose}>
+            <div
+              className="element-icon"
+              style={{
+                background: colorMapBackground[elementObject.category],
+                color: colorMapFontColor[elementObject.category],
+              }}
+            >
+              <div className="small">{elementObject.number}</div>
+              <div className="symbol">{elementObject.symbol}</div>
+              <div className="small">{elementObject.atomic_mass}</div>
+            </div>
+            <div>{elementObject.name}</div>
+          </div>
+        </DialogTitle>
+        <model-viewer
+          src={process.env.PUBLIC_URL + `/${elementObject.number}.glb`}
+          className="model"
+          autoplay=""
+          bounds="tight"
+          camera-controls=""
+          camera-orbit="-0.6751deg 70.99deg 1.4m"
+          exposure="0.3"
+          field-of-view="20deg"
+          max-camera-orbit="auto 180deg auto"
+          min-camera-orbit="auto 0deg auto"
+          auto-rotate
+        ></model-viewer>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
             {elementObject.summary}
           </DialogContentText>
         </DialogContent>
-        <DialogActions>
-          <Button onClick={handleClose}>Close</Button>
-        </DialogActions>
       </Dialog>
     </div>
   );
