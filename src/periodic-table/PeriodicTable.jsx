@@ -78,6 +78,7 @@ const PeriodicTable = () => {
             min-camera-orbit="auto 0deg auto"
             auto-rotate
           ></model-viewer>
+          <div className="small">3D Bohr Model</div>
         </div>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
