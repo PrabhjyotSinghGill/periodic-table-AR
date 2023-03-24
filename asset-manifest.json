@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/periodic-tableQ/static/css/main.128d816f.css",
+    "main.css": "/periodic-tableQ/static/css/main.1e959317.css",
     "main.js": "/periodic-tableQ/static/js/main.55719014.js",
     "index.html": "/periodic-tableQ/index.html",
-    "main.128d816f.css.map": "/periodic-tableQ/static/css/main.128d816f.css.map",
+    "main.1e959317.css.map": "/periodic-tableQ/static/css/main.1e959317.css.map",
     "main.55719014.js.map": "/periodic-tableQ/static/js/main.55719014.js.map"
   },
   "entrypoints": [
-    "static/css/main.128d816f.css",
+    "static/css/main.1e959317.css",
     "static/js/main.55719014.js"
   ]
 }
