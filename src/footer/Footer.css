@@ -3,11 +3,11 @@
     grid-template-columns: repeat(4, 150px);
     grid-template-rows: repeat(3, 18px);
     grid-gap: 10px;
-    position: relative;
-    top: 83%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 40%;
+    place-self:center center;
+    place-items: center center;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .element{
