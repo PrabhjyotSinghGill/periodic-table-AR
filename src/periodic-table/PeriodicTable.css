@@ -2,9 +2,11 @@
     display: grid;
     grid-template-columns: repeat(18, 50px);
     grid-template-rows: repeat(10, 50px);
-    grid-gap: 3px;
+    grid-gap: 0.2rem;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .element {
@@ -24,20 +26,20 @@
   }
   
   .element .number {
-    font-size: 8px;
+    font-size: 0.45rem;
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 8%;
+    left: 8%;
   }
   strong{
-    font-size: 18px;
+    font-size: 1.25rem;
     font-weight: 100;
   }
 
   .element .name {
-    font-size: 8px;
+    font-size: 0.45rem;
     position: absolute;
-    bottom: 5px;
+    bottom: 8%;
     left:auto;
     right: auto;
   }
@@ -91,3 +93,19 @@
     width: 300px;
 
   } 
+
+
+  /* Media Queries */
+@media screen and (max-width: 1000px) {
+  .periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 35px);
+    grid-template-rows: repeat(10, 35px);
+    grid-gap: 0.2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}

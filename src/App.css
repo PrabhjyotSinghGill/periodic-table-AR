@@ -13,9 +13,11 @@
 }
 
 .heading{
-  font-size: 30px;
-  line-height: 24px;
-  padding: 28px 16px 16px;
+  align-self: center;
+  align-items: center;
+  font-size: 2rem;
+  margin:auto;
+  padding-top: 1%;
 }
 
 .container{
@@ -30,4 +32,6 @@
   flex:5;
   flex-direction: column;
 }
+
+
 
