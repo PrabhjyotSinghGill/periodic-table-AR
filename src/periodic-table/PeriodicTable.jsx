@@ -1,7 +1,12 @@
 import * as React from "react";
 import data from "./PeriodicTableJSON.json";
 import "./PeriodicTable.css";
-import { colorMap, colorMapFontColor, colorMapBackground } from "./ColorScheme";
+import {
+  colorMapFontColorDark,
+  colorMapBackgroundDark,
+  colorMapFontColor,
+  colorMapBackground,
+} from "./ColorScheme";
 import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";

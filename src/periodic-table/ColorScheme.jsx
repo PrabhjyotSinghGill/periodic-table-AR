@@ -1,5 +1,18 @@
 // ------Periodic Table : Dark Color Variant-------------------------
-const colorMap = {
+const colorMapFontColorDark = {
+  "noble gas": "#ffe7eb",
+  "alkaline earth metal": "#ffe7e7",
+  "diatomic nonmetal": "#e2eeff",
+  "alkali metal": "#d8f8ff",
+  "transition metal": "#f3e8fd",
+  "post-transition metal": "#d6f9e8",
+  "polyatomic nonmetal": "#e2eeff",
+  lanthanide: "#d8f8ff",
+  metalloid: "#fef7e0",
+  unknown: "#e7e7ea",
+  actinide: "#ffe6d4",
+};
+const colorMapBackgroundDark = {
   "noble gas": "#623842",
   "alkaline earth metal": "#622e39",
   "diatomic nonmetal": "#2a4165",
@@ -42,4 +55,9 @@ const colorMapBackground = {
 };
 // -------------------------
 
-export { colorMap, colorMapFontColor, colorMapBackground };
+export {
+  colorMapFontColorDark,
+  colorMapBackgroundDark,
+  colorMapFontColor,
+  colorMapBackground,
+};
