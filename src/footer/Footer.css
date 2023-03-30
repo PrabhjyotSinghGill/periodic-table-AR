@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4, 150px);
     grid-template-rows: repeat(3, 18px);
-    grid-gap: 10px;
+    grid-gap: 0.2rem;
     place-self:center center;
     place-items: center center;
     width: auto;
@@ -10,13 +10,12 @@
     margin-bottom: auto;
   }
 
-  .element{
+  .element {
     display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
-    border-radius: 3px;
-    font-size: 10px;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
     transition-duration: .8s;
   }
-  
