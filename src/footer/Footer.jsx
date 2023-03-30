@@ -5,18 +5,18 @@ import data from "./FooterData.json";
 function Footer() {
   return (
     <div className="footer">
-      {data.elementTypes.map((element) => (
+      {data.elementTypes.map((footerElement) => (
         <div
-          className="element"
-          key={element}
+          className="footerElement"
+          key={footerElement}
           style={{
-            gridRow: element.ypos,
-            gridColumn: element.xpos,
+            gridRow: footerElement.ypos,
+            gridColumn: footerElement.xpos,
             // background: element.bkgcolor,
-            color: element.bordercolor,
+            color: footerElement.bordercolor,
           }}
         >
-          {element.name}
+          {footerElement.name}
         </div>
       ))}
     </div>

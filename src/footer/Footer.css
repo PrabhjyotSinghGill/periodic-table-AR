@@ -10,7 +10,7 @@
     margin-bottom: auto;
   }
 
-  .element {
+  .footerElement {
     display: flex;
     position: relative;
     align-items: center;
@@ -21,7 +21,7 @@
   }
 
   @media screen and (max-width: 1000px) {
-    .element {
+    .footerElement {
       display: flex;
       position: relative;
       align-items: center;
@@ -32,7 +32,7 @@
     }
   }
   @media screen and (max-width: 750px) {
-    .element {
+    .footerElement {
       display: flex;
       position: relative;
       align-items: center;
