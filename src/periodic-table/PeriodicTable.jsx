@@ -1,6 +1,7 @@
 import * as React from "react";
 import data from "./PeriodicTableJSON.json";
 import "./PeriodicTable.css";
+import ModelViewer from "../model-viewer/ModelViewer";
 import {
   colorMapFontColorDark,
   colorMapBackgroundDark,
@@ -70,19 +71,7 @@ const PeriodicTable = () => {
           </div>
         </DialogTitle>
         <div className="model-viewer-container">
-          <model-viewer
-            src={process.env.PUBLIC_URL + `/${elementObject.number}.glb`}
-            className="model"
-            autoplay=""
-            bounds="tight"
-            camera-controls=""
-            camera-orbit="-0.6751deg 70.99deg 1.4m"
-            exposure="0.3"
-            field-of-view="20deg"
-            max-camera-orbit="auto 180deg auto"
-            min-camera-orbit="auto 0deg auto"
-            auto-rotate
-          ></model-viewer>
+          <ModelViewer atomicNumber={elementObject.number}></ModelViewer>
           <div className="small">3D Bohr Model</div>
         </div>
         <DialogContent>
