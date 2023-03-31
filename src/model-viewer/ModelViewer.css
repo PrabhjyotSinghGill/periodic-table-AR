@@ -1,6 +1,11 @@
-  /* model-viewer {
+
+  model-viewer{
     height: 150px;
+  }
+
+  .model-viewer-container{
+    margin: 8px auto;
+    height: 160px;
+    position: relative;
     width: 300px;
-    background-color: gray;
-  } */
-  
+  } 
