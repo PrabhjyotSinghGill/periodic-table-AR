@@ -12,7 +12,7 @@ import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import "./DialogDisplay.css";
 
-function DialogDisplay({ elementObject, handleClose, open }) {
+function DialogDisplay({ elementObject, handleClose, open, checked }) {
   return (
     <Dialog
       open={open}
@@ -26,8 +26,12 @@ function DialogDisplay({ elementObject, handleClose, open }) {
           <div
             className="element-icon"
             style={{
-              background: colorMapBackground[elementObject.category],
-              color: colorMapFontColor[elementObject.category],
+              background: checked
+                ? colorMapBackgroundDark[elementObject.category]
+                : colorMapBackground[elementObject.category],
+              color: checked
+                ? colorMapFontColorDark[elementObject.category]
+                : colorMapFontColor[elementObject.category],
             }}
           >
             <div className="small">{elementObject.number}</div>

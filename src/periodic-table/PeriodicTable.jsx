@@ -46,6 +46,7 @@ const PeriodicTable = ({ checked }) => {
         </div>
       ))}
       <DialogDisplay
+        checked={checked}
         elementObject={elementObject}
         handleClose={handleClose}
         open={open}
