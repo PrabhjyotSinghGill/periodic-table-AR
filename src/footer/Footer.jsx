@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import data from "./FooterData.json";
 
-function Footer() {
+function Footer({ checked }) {
   return (
     <div className="footer">
       {data.elementTypes.map((footerElement) => (
@@ -12,8 +12,12 @@ function Footer() {
           style={{
             gridRow: footerElement.ypos,
             gridColumn: footerElement.xpos,
-            // background: element.bkgcolor,
-            color: footerElement.bordercolor,
+            // background: checked
+            //   ? footerElement.bkgcolordark
+            //   : footerElement.bkgcolor,
+            color: checked
+              ? footerElement.bordercolordark
+              : footerElement.bordercolor,
           }}
         >
           {footerElement.name}

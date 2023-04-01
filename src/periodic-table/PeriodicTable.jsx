@@ -9,7 +9,7 @@ import {
 } from "./ColorScheme";
 import DialogDisplay from "../dialog/DialogDisplay";
 
-const PeriodicTable = () => {
+const PeriodicTable = ({ checked }) => {
   const [elementObject, setElementObject] = React.useState("");
   const [open, setOpen] = React.useState(false);
 
@@ -32,8 +32,12 @@ const PeriodicTable = () => {
           style={{
             gridRow: element.ypos,
             gridColumn: element.xpos,
-            background: colorMapBackground[element.category],
-            color: colorMapFontColor[element.category],
+            background: checked
+              ? colorMapBackgroundDark[element.category]
+              : colorMapBackground[element.category],
+            color: checked
+              ? colorMapFontColorDark[element.category]
+              : colorMapFontColor[element.category],
           }}
         >
           <strong>{element.symbol}</strong>

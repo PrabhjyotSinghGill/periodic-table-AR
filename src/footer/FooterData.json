@@ -2,53 +2,73 @@
     {
         "name": "Alkali Metals",
         "bkgcolor":"#d8f8ff",
-        "bordercolor": "#00758c"
+        "bordercolor": "#00758c",
+        "bordercolordark": "#244d57",
+        "bkgcolordark": "#d8f8ff"
        
     },
     {
         "name": "Alkaline Earth Metals",
         "bkgcolor":"#ffe7e7",
-        "bordercolor":"#d60024"
+        "bordercolor":"#d60024",
+        "bordercolordark": "#622e39",
+        "bkgcolordark": "#ffe7e7"
     },
     {
         "name": "Transition Metals",
         "bkgcolor":"#f3e8fd",
-        "bordercolor":"#6232ec"
+        "bordercolor":"#6232ec",
+        "bordercolordark": "#433c65",
+        "bkgcolordark": "#f3e8fd"
     },
     {
         "name":"Post-Transition Metals",
         "bkgcolor":"#d6f9e8",
-        "bordercolor":"#227754"
+        "bordercolor":"#227754",
+        "bordercolordark": "#2f4d47",
+        "bkgcolordark": "#d6f9e8"
     },
     {
         "name":"Metalloids",
         "bkgcolor":"#fef7e0",
-        "bordercolor":"#945700"
+        "bordercolor":"#945700",
+        "bordercolordark": "#523e1b",
+        "bkgcolordark": "#fef7e0"
     },
     {
         "name":"Reactive Nonmetals",
         "bkgcolor":"#e2eeff",
-        "bordercolor":"#0060f0"
+        "bordercolor":"#0060f0",
+        "bordercolordark": "#2a4165",
+        "bkgcolordark": "#e2eeff"
     },
     {
         "name":"Noble Gases",
         "bkgcolor":"#ffe7eb",
-        "bordercolor":"#cd1d5e"
+        "bordercolor":"#cd1d5e",
+        "bordercolordark": "#623842",
+        "bkgcolordark": "#ffe7eb"
     },
     {
         "name":"Lanthanides",
         "bkgcolor":"#dff3ff",
-        "bordercolor":"#003355"
+        "bordercolor":"#003355",
+        "bordercolordark": "#004a77",
+        "bkgcolordark": "#d8f8ff"
     },
     {
         "name":"Actinides",
         "bkgcolor":"#ffe6d4",
-        "bordercolor":"#c73200"
+        "bordercolor":"#c73200",
+        "bordercolordark": "#613b28",
+        "bkgcolordark": "#ffe6d4"
     },
     {
         "name":"Unknown Properties",
         "bkgcolor":"#e7e7ea",
-        "bordercolor":"#3f374f"
+        "bordercolor":"#3f374f",
+        "bordercolordark": "#46474c",
+        "bkgcolordark": "#e7e7ea"
     }
     ]
 }
