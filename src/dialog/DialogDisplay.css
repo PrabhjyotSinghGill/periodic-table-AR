@@ -2,8 +2,8 @@
     display: flex;
   }
   .element-icon{
-    height: 80px;
-    width: 80px;
+    height: 5rem;
+    width: 5rem;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -19,9 +19,22 @@
     z-index: 1;
     cursor: pointer;
   }
+
   .small{
     display: flex;
+    font-size: x-small !important;
+    align-self: center;
+    justify-content: center;
+  }
+  .smallNumber{
+    display: flex;
     align-self: flex-start;
+    justify-content: space-around;
+    font-size: x-small !important;
+    width: 100%;
+  }
+  .smallName{
+    display: flex;
     justify-content: center;
     padding-left: 5%;
     font-size: x-small !important;

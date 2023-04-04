@@ -34,9 +34,12 @@ function DialogDisplay({ elementObject, handleClose, open, checked }) {
                 : colorMapFontColor[elementObject.category],
             }}
           >
-            <div className="small">{elementObject.number}</div>
+            <div className="smallNumber">
+              <div>{elementObject.number}</div>
+              <div>{elementObject.atomic_mass}</div>
+            </div>
             <div className="symbol">{elementObject.symbol}</div>
-            <div className="small">{elementObject.atomic_mass}</div>
+            <div className="smallName">{elementObject.name}</div>
           </div>
           <div>{elementObject.name}</div>
         </div>
