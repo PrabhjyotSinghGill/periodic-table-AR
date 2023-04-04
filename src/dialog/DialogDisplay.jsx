@@ -11,6 +11,7 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import "./DialogDisplay.css";
+import { Divider } from "@mui/material";
 
 function DialogDisplay({ elementObject, handleClose, open, checked }) {
   return (
@@ -53,15 +54,19 @@ function DialogDisplay({ elementObject, handleClose, open, checked }) {
           <div>
             <b>Summary :</b> {elementObject.summary}
           </div>
+          <Divider />
           <div>
             <b>Period :</b> {elementObject.period}
           </div>
+          <Divider />
           <div>
             <b>Atomic Mass :</b> {elementObject.atomic_mass}
           </div>
+          <Divider />
           <div>
             <b>Category :</b> {elementObject.category}
           </div>
+          <Divider />
           <div>
             <b>Shells :</b> {elementObject.shells}
           </div>
